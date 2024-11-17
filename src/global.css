@@ -1,0 +1,24 @@
+/* global.css */
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+/* Set a red background for the entire app and center content */
+body {
+  
+  font-family: "Sour Gummy", sans-serif;
+  background-color: rgba(227, 183, 48, 0.396);
+  color: rgb(22, 16, 16);
+  display: flex;
+  justify-content: center;    /* Center horizontally */
+  align-items: center;        /* Center vertically */
+  min-height: 100vh;          /* Make sure body takes up full viewport height */
+  text-align: center;         /* Center text for inline elements */
+  margin: 0;
+}

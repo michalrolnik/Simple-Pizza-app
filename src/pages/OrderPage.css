@@ -1,0 +1,43 @@
+/* Order page styling */
+
+/* Styles for the button container */
+.button-container {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center;    /* Center buttons horizontally */
+    gap: 10px;              /* Add space between buttons */
+    margin-top: 20px;       /* Add spacing from the top content */
+  }
+  
+  .button {
+
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: background-color 0.3s ease;
+  }
+  .edit-button {
+    margin-left: 10px;
+
+    padding: 10px 20px;
+    background-color: #fcfcf3;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.3rem;
+    transition: background-color 0.3s ease;
+  }
+  .pizza-details{
+    font-size: 2rem;
+
+  }
+  
+  button:hover {
+    background-color: #ff4500;
+  }
+  

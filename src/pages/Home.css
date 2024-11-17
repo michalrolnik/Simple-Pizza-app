@@ -1,0 +1,35 @@
+/* Home page styling */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;      /* Centers items horizontally */
+    justify-content: center;  /* Centers items vertically */
+    min-height: 100vh;        /* Full viewport height for vertical centering */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .home-title {
+    font-size: 4rem;
+    color: #333;
+    margin-bottom: 20px;
+   
+  }
+  
+  .home-button {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #ff4500;
+  }
+  
